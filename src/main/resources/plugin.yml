@@ -1,0 +1,11 @@
+name: Enchants
+version: ${project.version}
+main: me.darkeyedragon.enchants.Enchants
+commands:
+  ce:
+    description: "Custom Enchants GUI"
+    usage: "/ce"
+    permission: "ce.gui"
+permissions:
+  ce.gui:
+    default: true
